@@ -65,10 +65,11 @@ class App extends Component {
           />
         )}
         <hr />
-        <p>
-          copy rights for this project is{" "}
+        <footer class="ct-footer">
+          <div class="container" />
+          &copy; & &#153; code is copy rights for{" "}
           {process.env.REACT_APP_RECIPES_DEV_NAME}
-        </p>
+        </footer>
       </div>
     );
   }
