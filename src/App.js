@@ -64,6 +64,11 @@ class App extends Component {
             searchName={this.state.searchName}
           />
         )}
+        <hr />
+        <p>
+          copy rights for this project is{" "}
+          {process.env.REACT_APP_RECIPES_DEV_NAME}
+        </p>
       </div>
     );
   }
